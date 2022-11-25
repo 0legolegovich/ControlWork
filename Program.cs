@@ -6,6 +6,7 @@ string[] array = new string[numberOfElements];
 FillArray(array);
 PrintArray(array);
 
+// Метод заполняет массив введенными с клавиатуры элементами
 void FillArray(string[] collection)
 {
 	int length = collection.Length;
@@ -19,6 +20,7 @@ void FillArray(string[] collection)
 	}
 }
 
+// Метод выводит элементы массива, которые не длиннее трех символов
 void PrintArray (string[] col)
 {
 	int count = col.Length;
